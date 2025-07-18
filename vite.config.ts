@@ -5,7 +5,7 @@ import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 
 export default defineConfig(({ command }) => {
   return {
-    base: command === 'build' ? '/VihaShomikha.github.io-a9456cc0afc8f73b63895863c8a91ebcb1761fa9/' : '/',
+    base: command === 'build' ? '/VihaShomikha.github.io' : '/',
     plugins: [
       react(),
       runtimeErrorOverlay(),
